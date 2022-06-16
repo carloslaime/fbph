@@ -10,7 +10,7 @@ router.get('/', (req,res) => {
 
 router.post('/sesion', sesionController.sesion)
 
-router.get('/nv', (req,res) => {
-    res.render('create.ejs');
+router.get('/forgetpass', (req,res) => {
+    res.render('forgetPass.ejs');
 })
 module.exports = router;
